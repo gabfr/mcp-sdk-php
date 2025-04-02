@@ -8,11 +8,17 @@
             "Mcp\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gabfr/Ratchet"
+        }
+    ],
     "require": {
         "php": ">=8.1",
         "psr/log": "^3.0",
         "ext-curl": "*",
-        "cboden/ratchet": "^0.4",
+        "cboden/ratchet": "dev-master",
         "monolog/monolog": "^3.0"
     },
     "suggest": {
